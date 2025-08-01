@@ -1,14 +1,27 @@
+<div align="center">
+
 # Penetration Testing Toolkit - Name Pending
+<a><picture>
+<img alt="toolkit logo" src="https://imgs.search.brave.com/QBqab4BAw9-_blfU6G1U0QLIQVCmO11r295rm5hoKX8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE0/ODM0NTkzMC9waG90/by9vZmZpY2UtZW52/ZWxvcGUtd2l0aC1z/dGljay1ub3RlLXdy/aXR0ZW4tdGVtcG9y/YXJ5LWVtcGxveWVl/cy1yZWZlcnMtdG8t/dGVtcC13b3JrZXIt/b3ItcGVvcGxlLndl/YnA_YT0xJmI9MSZz/PTYxMng2MTImdz0w/Jms9MjAmYz0zMWxt/T2JwRXo5QzdJa0o4/SUlBTWsycmg3NWND/NWFodHNma01OaGJQ/LWVzPQ" width="160px">
+</picture></a> <br>
+| - - **Zachary Adelson** - - | <br>
 This tool is being built and designed as my WSU 2025 senior capstone project for Cybersecurity
 
-The tool will offer the following capabilities:
+[![Static Badge](https://img.shields.io/badge/Releases-red?style=plastic&logo=abdownloadmanager&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
+[![Documentation](https://img.shields.io/badge/Documentation-orange?style=plastic&logo=gitbook&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
+
+</div>
+
+-----
+
+### The tool will offer the following capabilities:
 - A visually appealing GUI
 - Simple penetration testing tools (Network Mapping, Password Cracking, etc.)
 - Basic automation
 - Built-in terminal for any command-line needs
 - Encrypted internal notebook for any private note taking related to penetration tests
 
-# Version Naming Convention
+# ✍️ Version Naming Convention
 Versions of release will be named in the following format
 
 <strong>(build version)-v(version number).(subversion number)-(epoch date of release of the version)</strong>
