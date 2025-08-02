@@ -21,6 +21,12 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 - Built-in terminal for any command-line needs
 - Encrypted internal notebook for any private note taking related to penetration tests
 
+<div align="center">
+
+ ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
+
+</div>
+
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
 
