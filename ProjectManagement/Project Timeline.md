@@ -13,4 +13,5 @@ Web Enumeration <br>
 - Whatweb
 
 Public Exploits <br>
+- metasploit
 - searchsploit
