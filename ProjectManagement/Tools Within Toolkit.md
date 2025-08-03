@@ -1,17 +1,19 @@
-# Basic Tools:
+<div align="center">
+  <h1>Basic Tools</h1>
+</div>
 
-Service Scanning <br>
+## Service Scanning 
 - NMap
 - netcat
 - smbclient
 - snmpwalk
 - onesixtyone
 
-Web Enumeration <br>
+## Web Enumeration
 - gobuster : dirb common.txt wordlist : SecLists
 - curl
 - Whatweb
 
-Public Exploits <br>
+## Public Exploits
 - metasploit
 - searchsploit
