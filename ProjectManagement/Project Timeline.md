@@ -1,4 +1,13 @@
-Basic Concepts:
+# Basic Tools:
 
-Web Enumeration
-gobuster
+Service Scanning <br>
+- NMap
+- netcat
+- smbclient
+- snmpwalk
+- onesixtyone
+
+Web Enumeration <br>
+- gobuster : dirb common.txt wordlist : SecLists
+- curl
+- Whatweb
