@@ -11,3 +11,6 @@ Web Enumeration <br>
 - gobuster : dirb common.txt wordlist : SecLists
 - curl
 - Whatweb
+
+Public Exploits <br>
+- searchsploit
