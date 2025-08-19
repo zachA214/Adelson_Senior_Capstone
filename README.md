@@ -9,6 +9,7 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 
 [![Releases](https://img.shields.io/badge/Releases-red?style=plastic&logo=abdownloadmanager&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
 [![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
+[![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
 
 </div>
 
