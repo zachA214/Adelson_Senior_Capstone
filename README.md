@@ -26,7 +26,7 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
-</div>
+
 
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
@@ -34,28 +34,31 @@ Versions of release will be named in the following format
 <strong>(build version)-v(version number).(subversion number)-(epoch date of release of the version)</strong>
 
 ### Build Version
-The build version refers to how close to live the release version is, usually following this order
-- Alpha | For very early proof of concept builds
-- Beta | For more working but missing full functionality builds
-- Live | For full functoinality builds, not necessarily all features are finished however
-- Full | Final production build
+The build version refers to how close to live the release version is, usually following this order <br>
+-> Alpha | For very early proof of concept builds <br>
+-> Beta | For more working but missing full functionality builds <br>
+-> Live | For full functoinality builds, not necessarily all features are finished however <br>
+-> Full | Final production build <br>
 
 ### Version Number
 For iterations of a build version that incorporate big changes. For instance when a new feature is added or majorly reformatted. <br>
-Examples:
-- Alpha v2.0
-- Beta v7.2
-- Alpha 1.2
-- Live 2.1
+<strong>Examples:</strong> <br>
+-> Alpha v2.0 <br>
+-> Beta v7.2 <br>
+-> Alpha 1.2 <br>
+-> Live 2.1 <br>
 > **_NOTE:_**  The full release build will not include a version number
 
 ### SubVersion Number
 The subversion number is appended after a period that is placed immediately following the version number. <br>
-Examples:
-- Alpha v2.4
-- Alpha v2.1
-- Beta v1.1
-- Beta v1.7
-- Live v4.0
-- Live v4.1
+<strong>Examples:</strong> <br>
+-> Alpha v2.4 <br>
+-> Alpha v2.1 <br>
+-> Beta v1.1 <br>
+-> Beta v1.7 <br>
+-> Live v4.0 <br>
+-> Live v4.1 <br>
 > **_NOTE:_**  The full release build will not include a subversion number
+
+
+</div>
