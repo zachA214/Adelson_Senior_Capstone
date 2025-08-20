@@ -14,15 +14,16 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 </div>
 
 -----
-
-### The tool will offer the following capabilities:
-- A visually appealing GUI
-- Simple penetration testing tools (Network Mapping, Password Cracking, etc.)
-- Basic automation
-- Built-in terminal for any command-line needs
-- Encrypted internal notebook for any private note taking related to penetration tests
-
 <div align="center">
+ 
+### The tool will offer the following capabilities:
+1. A visually appealing GUI
+2. Simple penetration testing tools (Network Mapping, Password Cracking, etc.)
+3. Basic automation
+4. Built-in terminal for any command-line needs
+5. Encrypted internal notebook for any private note taking related to penetration tests
+
+<br>
 
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
