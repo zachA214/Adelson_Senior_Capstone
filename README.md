@@ -7,6 +7,8 @@
 | - - **Zachary Adelson** - - | <br>
 This tool is being built and designed as my WSU 2025 senior capstone project for Cybersecurity
 
+ ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
+
 [![Releases](https://img.shields.io/badge/Releases-red?style=plastic&logo=abdownloadmanager&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
 [![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
 [![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/users/zachA214/projects/3)
@@ -21,19 +23,20 @@ The PTP tool is that a tool that will collection of powerful pen testing tools i
 
 --- 
 
-### Pen Testing Pocket | Description
-1. A visually appealing GUI
-2. Simple penetration testing tools (Network Mapping, Password Cracking, etc.)
-3. Basic automation
-4. Built-in terminal for any command-line needs
-5. Encrypted internal notebook for any private note taking related to penetration tests
-
-# elevator pitch
+### <ins> Pen Testing Pocket | Description </ins>
+1️⃣ A visually appealing GUI <br>
+2️⃣ Simple penetration testing tools (Network Mapping, Password Cracking, etc.) <br>
+3️⃣ Basic automation <br>
+4️⃣ Built-in terminal for any command-line needs <br>
+5️⃣ Encrypted internal notebook for any private note taking related to penetration tests <br>
 
 <br>
 
- ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
+## 🛗 Elevator Pitch 
 
+<strong>*The perfect tool to allow for penetration testing simplified, for professionals to newcomers*</strong>
+
+---
 
 # 🗓️ Deadlines
 
@@ -50,14 +53,14 @@ Versions of release will be named in the following format
 
 <strong>(build version)-v(version number).(subversion number)-(epoch date of release of the version)</strong>
 
-### Build Version
+### <ins>Build Version</ins>
 The build version refers to how close to live the release version is, usually following this order <br>
 -> Alpha | For very early proof of concept builds <br>
 -> Beta | For more working but missing full functionality builds <br>
 -> Live | For full functoinality builds, not necessarily all features are finished however <br>
 -> Full | Final production build <br>
 
-### Version Number
+### <ins>Version Number</ins>
 For iterations of a build version that incorporate big changes. For instance when a new feature is added or majorly reformatted. <br>
 <strong>Examples:</strong> <br>
 -> Alpha v2.0 <br>
@@ -66,7 +69,7 @@ For iterations of a build version that incorporate big changes. For instance whe
 -> Live 2.1 <br>
 > **_NOTE:_**  The full release build will not include a version number
 
-### SubVersion Number
+### <ins>SubVersion Number</ins>
 The subversion number is appended after a period that is placed immediately following the version number. <br>
 <strong>Examples:</strong> <br>
 -> Alpha v2.4 <br>
@@ -77,5 +80,18 @@ The subversion number is appended after a period that is placed immediately foll
 -> Live v4.1 <br>
 > **_NOTE:_**  The full release build will not include a subversion number
 
+## Installation
+
+## Prerequeisites
+
+python3
+
+### Add-ons
+
+no add-ons yet
+
+### Installations 
+
+exact commands to install
 
 </div>
