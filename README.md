@@ -28,6 +28,15 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
 
+# 🗓️ Deadlines
+
+| Sprint | Deadline Date | Sprint Report | Sprint Demo Video |
+| :---: | :---: | :--: | :--: |
+| Sprint 1 | September 13th, 2025 | x | x |
+| Sprint 2 | October 11th, 2025 | x | x |
+| Sprint 3 | Novemeber 8th, 2025 | x | x |
+| Sprint 4 | December 6th, 2025 | x | x |
+
 
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
