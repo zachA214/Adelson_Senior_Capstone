@@ -15,13 +15,20 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 
 -----
 <div align="center">
- 
-### The tool will offer the following capabilities:
+
+## Project Summary
+The PTP tool is that a tool that will collection of powerful pen testing tools into one singular interface that removes the toughness of using CLI with the clean GUI. Allowing for all penetration testing needs to be secured by this tool
+
+--- 
+
+### Pen Testing Pocket | Description
 1. A visually appealing GUI
 2. Simple penetration testing tools (Network Mapping, Password Cracking, etc.)
 3. Basic automation
 4. Built-in terminal for any command-line needs
 5. Encrypted internal notebook for any private note taking related to penetration tests
+
+# elevator pitch
 
 <br>
 
