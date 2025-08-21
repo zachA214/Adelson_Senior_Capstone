@@ -17,3 +17,18 @@
 ## Public Exploits
 - metasploit
 - searchsploit
+
+## Encoding, Decoding, Hashing
+### Encoding/Decoding
+- Binary
+- Hexadecimal
+- Decimal
+- Base64
+- ASCII
+- UTF
+### Hashing
+- SHA-1
+- SHA-256
+- MD5
+- CRC-32
+- RIPEMD-160
