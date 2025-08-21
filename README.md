@@ -9,9 +9,10 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
-[![Releases](https://img.shields.io/badge/Releases-red?style=plastic&logo=abdownloadmanager&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
+<!--- Project report will always link to the latest project report, other project reports will be stored in the github as well for tracking purposes --->
+[![Project Report](https://img.shields.io/badge/Project_Report-red?style=plastic&logo=codementor&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient) 
 [![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
-[![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/users/zachA214/projects/3)
+[![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/users/zachA214/projects/3) 
 
 </div>
 
