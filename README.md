@@ -80,7 +80,7 @@ The subversion number is appended after a period that is placed immediately foll
 -> Live v4.1 <br>
 > **_NOTE:_**  The full release build will not include a subversion number
 
-## Installation
+# Installation
 
 ## Prerequeisites
 
