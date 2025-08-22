@@ -36,3 +36,4 @@
 - MD5
 - CRC-32
 - RIPEMD-160
+- B-crypt
