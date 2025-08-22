@@ -41,6 +41,8 @@ The PTP tool is that a tool that will collection of powerful pen testing tools i
 
 # 🗓️ Deadlines
 
+## 🏃 Sprint Reports
+
 | Sprint | Deadline Date | Sprint Report | Sprint Demo Video |
 | :---: | :---: | :--: | :--: |
 | Sprint 1 | September 13th, 2025 | x | x |
@@ -48,6 +50,21 @@ The PTP tool is that a tool that will collection of powerful pen testing tools i
 | Sprint 3 | Novemeber 8th, 2025 | x | x |
 | Sprint 4 | December 6th, 2025 | x | x |
 
+## 🖇️ Project Reports
+
+| Project Report Version | Deadline Date | Project Report | 
+| :---: | :---: | :--: | 
+| Project Report Draft 1 | September 13th, 2025 | x | 
+| Project Report Draft 2 | October 11th, 2025 | x | 
+| Project Report Draft 3 | Novemeber 8th, 2025 | x |
+| Project Report Final Draft | December 6th, 2025 | x |
+
+## 🖼️ Poster
+
+| Submission Name | Deadline Date | Submission | 
+| :---: | :---: | :--: |
+| Poster Title, Team Name, Team Members, and Abstract | November 21st, 2025 | x |
+| Poster Presentation | December 1st, 2025 | x | 
 
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
