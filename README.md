@@ -35,7 +35,7 @@ The PTP tool is that a tool that will collection of powerful pen testing tools i
 
 ## 🛗 Elevator Pitch 
 
-<strong>*The perfect tool for simplified penetration testing , designed for professionals to newcomers alike*</strong>
+<strong>*The perfect tool for simplified penetration testing, designed with professionals and newcomers in mind*</strong>
 
 ---
 
