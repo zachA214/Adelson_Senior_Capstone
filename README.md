@@ -2,7 +2,7 @@
 
 # Penetration Test Pocket
 <a><picture>
-<img alt="PTP logo" src="https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/src/imgs/PTP_Logo_NoBG.png" width="250px">
+<img alt="PTP logo" src="https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/src/imgs/PTPLogo.png" width="256px">
 </picture></a> <br>
 | - - **Zachary Adelson** - - | <br>
 This tool is being built and designed as my WSU 2025 senior capstone project for Cybersecurity
