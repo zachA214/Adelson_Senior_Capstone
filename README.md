@@ -25,7 +25,7 @@ The PTP tool is that a tool that will collection of powerful pen testing tools i
 --- 
 
 ### <ins> Pen Testing Pocket | Description </ins>
-1️⃣ A visually appealing GUI <br>
+1️⃣ A visually appealing GUI built on [PyQT](https://wiki.python.org/moin/PyQt) <br>
 2️⃣ Simple penetration testing tools (Network Mapping, Password Cracking, etc.) <br>
 3️⃣ Basic automation <br>
 4️⃣ Built-in terminal for any command-line needs <br>
