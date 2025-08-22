@@ -18,6 +18,10 @@
 - metasploit
 - searchsploit
 
+## Password Cracking
+- Hashcat
+- John the Ripper
+
 ## Encoding, Decoding, Hashing
 ### Encoding/Decoding
 - Binary
