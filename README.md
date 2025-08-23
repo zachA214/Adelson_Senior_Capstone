@@ -7,6 +7,8 @@
 | - - **Zachary Adelson** - - | <br>
 This tool is being built and designed as my WSU 2025 senior capstone project for Cybersecurity
 
+[install](#Installation)
+
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
 <!--- Project report will always link to the latest project report, other project reports will be stored in the github as well for tracking purposes --->
