@@ -102,7 +102,17 @@ The subversion number is appended after a period that is placed immediately foll
 
 ## Prerequeisites
 
-python3
+First we need to install python3.
+
+```sh
+sudo apt install python3
+```
+
+Then PIP needs to be installed
+
+```sh
+sudo apt install pip
+```
 
 ### Add-ons
 
