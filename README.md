@@ -114,6 +114,19 @@ Then PIP needs to be installed
 sudo apt install pip
 ```
 
+#### Select Installation type based on use
+
+<details>
+  <summary><ins><strong>User Installation</strong></ins></summary>
+  Steps in progress
+</details>
+
+<details>
+  <summary><ins><strong>Developer Installation</strong></ins></summary>
+  Steps in progress
+</details>
+
+
 ### Add-ons
 
 no add-ons yet
