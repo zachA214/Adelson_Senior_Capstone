@@ -20,7 +20,7 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 <div align="center">
 
 ## Project Summary
-The PTP tool is that a tool that will collection of powerful pen testing tools into one singular interface that removes the toughness of using CLI with the clean GUI. Allowing for all penetration testing needs to be secured by this tool
+The PTP tool is an application that is a collection of powerful pen testing tools, combined into one singular interface that removes the toughness of using CLI with the benefit of a clean GUI. Allowing for all penetration testing needs to be enabled by this tool
 
 --- 
 
