@@ -69,7 +69,7 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
 
-<strong>(build version)-v(version number).(subversion number)-(epoch date of release of the version)</strong>
+<strong>(build version)-v(version number).(subversion number)</strong>
 
 ### <ins>Build Version</ins>
 The build version refers to how close to live the release version is, usually following this order <br>
