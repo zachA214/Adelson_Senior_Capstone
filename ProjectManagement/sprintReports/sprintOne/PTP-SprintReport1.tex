@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage{hyperref}
+%%%%%%%% https://tex.stackexchange.com/questions/136527/section-numbering-without-numbers
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{Section \thesection: }
+\makeatother
+\usepackage{graphicx} % Required for inserting images
+
+\title{Sprint Report 1\\\small{PenTestPocket}}
+\author{Zachary Adelson}
+\date{August 21st 2025 - September 13th 2025}
+
+\begin{document}
+
+\maketitle
+\rule{10cm}{0.25pt}
+\centering
+
+\section{What's New (User Facing)}
+\subsection{Feature - GUI} In this sprint the GUI was created, using PyQt5 and Python3. A lot of the GUI was built using the PyQt5 designer and given attributes via Python3, but there are portions were completed built and given attributes in Python3.
+\subsection{Feature - Linked Buttons} Buttons were created, as specified by the project GUI mockup. Each button links to a different window; Window-specific usage is still in progress, and the \textbf{\textit{Help}} button currently does not link anywhere.
+\subsection{Feature - Resize-able Windows} The windows are re-sizable of a scale of 800x600 - 1200-800, this is due to because I didn't want users shrinking the tool too small and causing potential GUI errors, and there is no reason to have the tool be full screen, so it is locked within that range. All elements will move along with this scaling so that the proportions are correct regardless of the window size.
+\subsection{Feature - Tool Options} The tool options are stored within a list inside my Python3 code that contains all the tools and can be scaled anyway, fitting my needs.
+\newpage
+\section{Work Summary (Developer Facing)}
+\large{
+In \textbf{Sprint 1}, I was able to create the initial GUI, implement the buttons that will link to all the different capabilities of the tool, create pop-out windows, and changing screens within the tool itself.\\ This was all accomplished starting from August 21st 2025, time tracking is stored in GitHub to break down how much time was spent in each grouping (specified in the roadmap) and how much each day.
+}
+\newpage
+\section{Unfinished Work}
+\large{
+In \textbf{Sprint 1} I was unable to finish linking all the \href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/42}{buttons} and \href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/43}{resizing} of elements on the screen. (Associated issues are linked here). \\
+The default reason, which is true for these issues as well, is that for any delayed issue it is due to the tasks taking longer than expected; any other arising issues will be mentioned within the comments of the issue itself. \\
+These issues may remain in Sprint 1 if I am able to complete them before the 13th (end of Sprint 1), otherwise they will be shifted into the start of \textbf{Sprint 2}.\\
+**NOTE* - There are open issues, but they are pre-created for future sprints, so they are not in scope for this sprint. \\
+}
+\newpage
+\section{Completed Issues/User Stories}
+Here are links to the issues that I completed in this sprint:
+\subsection{Issue links}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/1}{Issue \#1 - Initial Project Setup} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/2}{Issue \#2 - Assign all other members and times} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/4}{Issue \#4 - Define GUI design and documentation process} \\ 
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/5}{Issue \#5 - Update the readme} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/6}{Issue \#6 - Code Setup} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/7}{Issue \#7 - Install all required dependencies} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/8}{Issue \#8 - First Pull + First Push} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/9}{Issue \#9 - Weekly Coaching Session - 8/21} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/11}{Issue \#11 - Weekly Coaching Session - 8/28} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/12}{Issue \#12 - Weekly Coaching Session - 9/4} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/26}{Issue \#26 - Choose between PyQT and tKinter} \\ 
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/27}{Issue \#27 - install pyqt} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/28}{Issue \#28 - begin building gui with pyqt} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/29}{Issue \#29 - Look into using LaTeX} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/38}{Issue \#38 - Implement all GUI elements} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/39}{Issue \#39 - Plan out next steps - tools} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/40}{Issue \#40 - Document Code Space Setup with Screenshots} \\
+
+\newpage
+
+\section{Incomplete Issues/User Stories}
+Here are links to issues I worked on but did not complete in this sprint:
+\subsection{Issue links \& Explanations}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/13}{[Will be Completed] Issue \#13 - Weekly Coaching Session - 9/11} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is a meeting, this will be completed before end of sprint 1 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/25}{[Will be Completed] Issue \#25 - Sprint One Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is the Sprint Report One, if you are seeing this, it is completed
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/34}{[Will be Completed] Issue \#34 - Project Draft One Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Project One Report will be submitted before September 13th (end of Sprint 1)
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/42}{[Incomplete] Issue \#42 - All buttons linked} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Ran out of time in this sprint
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/43}{[Incomplete] Issue \#43 - Make all elements on or main screen scale with the screen} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Element count kept changing, and time ran out during this sprint
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/45}{[Incomplete] Issue \#45 - Plan out next steps - interfaces} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:}  Blocked by Issue 42 and 43, cannot complete this sprint because of that
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/44}{[Will be Completed] Issue \#44 - Blocked Time - Sprint + Project Report} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Time reserved to work on the sprint and project report, will be completed as soon as both of those are finished, which will be in Sprint 1
+    }%
+}
+\newpage
+\section{Code Files for Review}
+Please review the following code files, which were actively developed during this
+sprint, for quality:
+\begin{center}
+\href{https://github.com/zachA214/Adelson\_Senior\_Capstone/blob/main/PenTestPocket/pentestpocket.py}{Main PenTestPocket Python Code} 
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/changelog.py}{Change Log Python Code}
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/userlogging.py}{User Logging Python Code}   
+\end{center}
+
+\newpage
+\section{Retrospective Summary}
+\subsection{What went well}
+\begin{center}
+    \textbf{\textit{GUI Design}} - Creating the GUI very closely to the mock-up I had created
+\end{center}
+\begin{center}
+    \textbf{\textit{Modularity of Code}} - The code is very easy to change modulate because I am using variables for everything instead of hard coding, so only one line will change the entire structure.
+\end{center}
+\begin{center}
+    \textbf{\textit{Simplicity of Interface}} - The graphical interface is clear and simple as to what a user looking at and does not require technical prowess to operate
+\end{center}
+
+\subsection{What needs improvement}
+\begin{center}
+    \textbf{\textit{User Interaction}} - The app needs improvement on users interacting as users can hardly do anything at this stage in the project 
+\end{center}
+\begin{center}
+    \textbf{\textit{Integrated Terminal}} - The integrated terminal pops up, but does not accept user input as should be, and there is no interaction between my integrated terminal and the actual command line
+\end{center}
+\begin{center}
+    \textbf{\textit{Tool Capabilities}} - No tools are actually active and usable within the tool
+\end{center}
+
+\subsection{Planned changes leading into Sprint 2}
+\begin{center}
+    \textbf{\textit{Integration of Tools}} - Go through each of the tools planned, figure out all possible inputs and how I would want a user to interact with those inputs in the GUI, and implement them one by one, starting with Nmap 
+\end{center}
+\begin{center}
+    \textbf{\textit{Implement User Logging}} - Keep track of each user event, write it to the txt file so that it can either be stored, erased, displayed, and more
+\end{center}
+\begin{center}
+    \textbf{\textit{Terminal Functionality}} - Setup terminal to act like an actual terminal while being within the PTP tool
+\end{center}
+
+\end{document}
