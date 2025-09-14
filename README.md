@@ -54,7 +54,7 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 
 | Project Report Version | Deadline Date | Project Report | 
 | :---: | :---: | :--: | 
-| Project Report Draft 1 | September 13th, 2025 | x | 
+| Project Report Draft 1 | September 13th, 2025 | [Project Report Draft 1](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft1/PTP_ProjectReportDraft1.pdf) | 
 | Project Report Draft 2 | October 11th, 2025 | x | 
 | Project Report Draft 3 | Novemeber 8th, 2025 | x |
 | Project Report Final Draft | December 6th, 2025 | x |
