@@ -114,6 +114,16 @@ Then PIP needs to be installed
 sudo apt install pip
 ```
 
+All dependencies required for successful execution listed below; All these depedencies will be listed in requirements.txt
+
+### Dependencies
+
+Nmap
+
+```sh
+sudo apt install nmap
+```
+
 #### Select Installation type based on use
 
 <details>
@@ -125,11 +135,6 @@ sudo apt install pip
   <summary><ins><strong>Developer Installation</strong></ins></summary>
   Steps in progress
 </details>
-
-
-### Add-ons
-
-no add-ons yet
 
 ### Installations 
 
