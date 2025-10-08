@@ -1,0 +1,169 @@
+\documentclass{article}
+\usepackage{hyperref}
+%%%%%%%% https://tex.stackexchange.com/questions/136527/section-numbering-without-numbers
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{Section \thesection: }
+\makeatother
+\usepackage{graphicx} % Required for inserting images
+
+\title{Sprint Report 2\\\small{PenTestPocket}}
+\author{Zachary Adelson}
+\date{September 14th 2025 - October 11th 2025}
+
+\begin{document}
+
+\maketitle
+\rule{10cm}{0.25pt}
+\centering
+
+\section{What's New (User Facing)}
+\subsection{Feature - Enhanced Interface} The interface for PTP has been developed and has a lot of interactivity. However, it is still missing a lot of key freatures that will be further implemented as more tools are included
+
+\subsection{Feature - Basic User Logging} Actions made by users are now stored and logged within an internal txt file, this is for reference and maintaining proper logs of actions made. Further work needs to be done to ensure full and complete logging, and the encryption of the log file.
+
+\subsection{Feature - Start of a working toolkit} Functions are in place to easily add, remove, and alter tools used, all that needs to be done is to pass in the proper formatting for function calls, other than that, the toolkit is functional and communicating.
+
+\subsection{Feature - Internal interfacing with terminal via subproccessing} PTP is able to send and receive commands from internal terminal using the QProcess capability, allowing for calls that were not possible in the past.
+\newpage
+\section{Work Summary (Developer Facing)}
+\large{
+In \textbf{Sprint 2}, I was able to enchance the already exisiting GUI with more features and capabilities such as start to logging, more features in button interaction, etc.\\ This was all accomplished starting from August 21st 2025, time tracking is stored in GitHub to break down how much time was spent in each grouping (specified in the roadmap) and how much each day.
+}
+\newpage
+\section{Unfinished Work}
+\large{
+In \textbf{Sprint 2} I was unable to finish integrating my first tool (nmap), and I was unable to completely develop userlogging \\
+The default reason, which is true for these issues as well, is that for any delayed issue it is due to the tasks taking longer than expected; any other arising issues will be mentioned within the comments of the issue itself. For this sprint, a lot of delays came in the form of exams and large projects in other coursework \\
+**NOTE* - There are open issues, but they are pre-created for future sprints, so they are not in scope for this sprint. \\
+}
+\newpage
+\section{Completed Issues/User Stories}
+Here are links to the issues that I completed in this sprint:
+\subsection{Issue links}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/14}{Issue \#14 - Weekly Coaching Session - 9/18} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/15}{Issue \#15 - Weekly Coaching Session - 9/25} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/16}{Issue \#16 - Weekly Coaching Session - 10/2} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/42}{Issue \#42 - All buttons linked} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/45}{Issue \#45 - Plan out next steps - interfaces} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/47}{Issue \#47 - Integrate Nmap} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/49}{Issue \#49 - Send Nmap commands from PTP} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/50}{Issue \#50 - Receive Nmap terminal output} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/51}{Issue \#51 - Include Nmap dependency in readme} \\
+
+\newpage
+
+\section{Incomplete Issues/User Stories}
+Here are links to issues I worked on but did not complete in this sprint:
+\subsection{Issue links \& Explanations}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/17}{[Will be Completed] Issue \#17 - Weekly Coaching Session - 10/9} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is a meeting, this will be completed before end of sprint 2 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/30}{[Will be Completed] Issue \#30 - Sprint Two Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is the Sprint Report Two, if you are seeing this, it is completed
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/35}{[Will be Completed] Issue \#35 - Project Draft Two Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Project Two Report will be submitted before October 11th (end of Sprint 2)
+    }%
+}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/48}{[Incomplete] Issue \#48 - Assign Nmap Commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Ran out of time this sprint due to exams
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/52}{[Incomplete] Issue \#52 - Integrate Ncat} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Wasn't able to finish up all of Nmap due to exam season
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/53}{[Incomplete] Issue \#53 - Assign Ncat Commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This issue is unresolved for the same reason as Issue 52
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/54}{[Will be Completed] Issue \#54 - Blocked time for sprint 2 and report draft 2} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Time reserved to work on the sprint and project report, will be completed as soon as both of those are finished, which will be in Sprint 2
+    }%
+}
+\newpage
+\section{Code Files for Review}
+Please review the following code files, which were actively developed during this
+sprint, for quality:
+\begin{center}
+\href{https://github.com/zachA214/Adelson\_Senior\_Capstone/blob/main/PenTestPocket/pentestpocket.py}{Main PenTestPocket Python Code} 
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/changelog.py}{Change Log Python Code}
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/userlogging.py}{User Logging Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/helpwindow.py}{Help Window Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/servicescanning.py}{Service Scanning Python Code}   
+\end{center}
+
+\newpage
+\section{Retrospective Summary}
+\subsection{What went well}
+\begin{center}
+    \textbf{\textit{Sub process based Communication with Terminal}} - Tool processes are handled by PyQT5 subprocess schema, QProcess, so that the execution of PTP isn't halted while a tool runs
+\end{center}
+\begin{center}
+    \textbf{\textit{Separation of tasks via classes}} - Grouping out a lot of not directly created activities to other classes, for instance user logging, and tool execution are handled in their own classes and in their own python files
+\end{center}
+\begin{center}
+    \textbf{\textit{Generic code}} - Code is set up in a way where no changes need to be made for a variety of tools, only inputs need to change, so each function is generic and addition of more tools can be done with great ease
+\end{center}
+
+\subsection{What needs improvement}
+\begin{center}
+    \textbf{\textit{User Logging}} - All events that are made by influence of a user need to be handled and recorded in a human readable way into the userlog.txt file
+\end{center}
+\begin{center}
+    \textbf{\textit{Records of tool usage}} - Tool execution displays results within the tool window, however after closing the window those results are know inaccessible. We need to create a way to store that data for viewing after, maybe even as a toggle
+\end{center}
+\begin{center}
+    \textbf{\textit{Further Tool Capabilities}} - Tools have a very limited ability to compute, expanding that to a few before moving further is the goal with increasing capabilities
+\end{center}
+
+\subsection{Planned changes leading into Sprint 3}
+\begin{center}
+    \textbf{\textit{Wider Integration of Tools}} - All tools implemented, so at this stage we need to increase what options are associated with these tools. Tools such as Ncat, and other are not being referred to in the wider integration. 
+\end{center}
+\begin{center}
+    \textbf{\textit{Finalize User Logging}} - Ensure that every activity is tracked and logged, only some are as of present
+\end{center}
+\begin{center}
+    \textbf{\textit{Implement Tool History Logs}} - Ensure that whatever information is displayed during a single session of a tool usage, it is saved and can be referred to later
+\end{center}
+
+\end{document}
