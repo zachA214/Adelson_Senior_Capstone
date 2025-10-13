@@ -133,7 +133,24 @@ sudo apt install nmap
 
 <details>
   <summary><ins><strong>Developer Installation</strong></ins></summary>
-  Steps in progress
+  Installing PyQT5:
+  The installation of PyQT5 for development requires 3 commands when running on a Debian system
+
+ 1. 
+ ```sh
+sudo apt install python3-pyqt5
+ ```
+
+2.
+```sh
+sudo apt install qtcreator pyqt5-dev-tools
+```
+
+3.
+```sh
+sudo apt install qttools5-dev-tools
+```
+
 </details>
 
 ### Installations 
