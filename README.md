@@ -130,12 +130,6 @@ Ncat
 sudo apt install ncat
 ```
 
-num2words
-
-```sh
-pip install num2words
-```
-
 #### Select Installation type based on use
 
 <details>
