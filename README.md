@@ -130,6 +130,12 @@ Ncat
 sudo apt install ncat
 ```
 
+curl
+
+```sh
+sudo apt install curl
+```
+
 Hashcat
 
 ```sh
