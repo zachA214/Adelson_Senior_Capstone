@@ -130,6 +130,12 @@ Ncat
 sudo apt install ncat
 ```
 
+Hashcat
+
+```sh
+sudo apt install hashcat
+```
+
 #### Select Installation type based on use
 
 <details>
