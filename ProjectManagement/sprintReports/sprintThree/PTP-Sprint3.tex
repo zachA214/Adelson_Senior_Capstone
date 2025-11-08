@@ -1,0 +1,191 @@
+\documentclass{article}
+\usepackage{hyperref}
+%%%%%%%% https://tex.stackexchange.com/questions/136527/section-numbering-without-numbers
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{Section \thesection: }
+\makeatother
+\usepackage{graphicx} % Required for inserting images
+
+\title{Sprint Report 3\\\small{PenTestPocket}}
+\author{Zachary Adelson}
+\date{October 12th 2025 - November 8th 2025}
+
+\begin{document}
+
+\maketitle
+\rule{10cm}{0.25pt}
+\centering
+
+\section{What's New (User Facing)}
+\subsection{Feature - Nmap and Ncat} One of the many new additions to PTP was Nmap and Ncat, these tools were the first to be implemented The interface for PTP, and these tools have been connected using QSubprocess which will be explained in the developer section
+
+\subsection{Feature - curl and hashcat} The next tools added to PTP, that we additions near the end of Sprint 3, are curl and hashcat. While these tools are integrated and can be sent targets and run like expected within PTP, they need more customization options that will be added in Sprint 4
+
+\subsection{Feature - Data Conversions} One of the largest additions in Sprint 3 were all of the data conversion capabilities that were added; What this means is that I have added ways to convert one format to another, I.E. Text to Binary, or Binary to Hex, or so on and so forth. While there are still some kinks to work out, majority of the functionality is fully developed 
+
+\subsection{Feature - Hashing} Hashing has been added with six different ways to hash a string, SHA1, SHA256, MD5, CRC-32, RIPEMD-160, and Shake256 (which replaced the original B-crypt). B-crypt was replaced as I wanted to minimize the amount of external downloads needed to run PTP, currently requiring only 4 (nmap, ncat, hashcat, curl)
+\newpage
+\section{Work Summary (Developer Facing)}
+\large{
+In \textbf{Sprint 3}, I integrated the tools and functions as mentioned in \#\textit{Section 1} using QProcess and QThread to create subprocesses for tools like nmap and threads for function calls like hashing respectively.\\ This was all accomplished starting from August 21st 2025, time tracking is stored in GitHub to break down how much time was spent in each grouping (specified in the roadmap) and how much each day.
+}
+\newpage
+\section{Unfinished Work}
+\large{
+In \textbf{Sprint 3} I was not able to finish user logging, tool run data, pinned tools, and the final few tools to add to meet the minimum planned completion threshold\\
+The default reason, which is true for these issues as well, is that for any delayed issue it is due to the tasks taking longer than expected; any other arising issues will be mentioned within the comments of the issue itself. For this sprint, a lot of delays came in the form of goal changes, other coursework, and personal commitments \\
+**NOTE* - There are open issues, but they are meant to be placed into the final sprint, so they are not in scope for this sprint. \\
+}
+\newpage
+\section{Completed Issues/User Stories}
+Here are links to the issues that I completed in this sprint:
+\subsection{Issue links}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/18}{Issue \#18 - Weekly Coaching Session - 10/16} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/19}{Issue \#19 - Weekly Coaching Session - 10/23} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/20}{Issue \#20 - Weekly Coaching Session 10/30} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/48}{Issue \#48 - Assign Nmap Commands} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/52}{Issue \#52 - Integrate Ncat} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/57}{Issue \#57 - Add data conversion} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/60}{Issue \#60 - Integrate curl} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/64}{Issue \#64 - Add hashing} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/65}{Issue \#65 - Integrate Hashcat} \\
+
+\newpage
+
+\section{Incomplete Issues/User Stories}
+Here are links to issues I worked on but did not complete in this sprint:
+\subsection{Issue links \& Explanations}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/21}{[Will be Completed] Issue \#21 - Weekly Coaching Session - 11/06} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is a meeting, this will be completed before end of sprint 3
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/31}{[Will be Completed] Issue \#31 - Sprint Three Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is the Sprint Report Three, if you are seeing this, it is completed
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/36}{[Will be Completed] Issue \#36 - Project Draft Three Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Project Three Report will be submitted before November 8th (end of Sprint 3)
+    }%
+}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/53}{[Incomplete] Issue \#53 - Assign Ncat Commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} I was prioritizing integration of multiple tools
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/55}{[Incomplete] Issue \#55 - Create more in depth user logging} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Converted into stretch goal to focus on tool creation
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/56}{[Incomplete] Issue \#56 - Store tool output in a file for later} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} I was prioritizing integration of multiple tools before output collection
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/61}{[Incomplete] Issue \#61 - Assign curl commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} I was prioritizing integration of multiple tools before output collection
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/67}{[Will be Completed] Issue \#67 - Blocked time for sprint 3 and report draft 3} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Time reserved to work on the sprint and project report, will be completed as soon as both of those are finished, which will be in Sprint 3
+    }%
+}
+\newpage
+\section{Code Files for Review}
+Please review the following code files, which were actively developed during this
+sprint, for quality:
+\begin{center}
+\href{https://github.com/zachA214/Adelson\_Senior\_Capstone/blob/main/PenTestPocket/pentestpocket.py}{Main PenTestPocket Python Code} 
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/changelog.py}{Change Log Python Code}
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/userlogging.py}{User Logging Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/helpwindow.py}{Help Window Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/servicescanning.py}{Service Scanning Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/passwordcracking.py}{Password Cracking Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/webenumeration.py}{Web Enumeration Python Code}   
+\end{center}
+
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/encodedecode.py}{Encode/Decode Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{\\https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/createhash.py}{Create Hash Python Code}   
+\end{center}
+
+\newpage
+\section{Retrospective Summary}
+\subsection{What went well}
+\begin{center}
+    \textbf{\textit{Implementation of hashing and data conversion}} - I was able to fully implement and integrate all data conversions and hashing functionality with only the minor change of grouping ASCII and UTF-8 into 'Text'
+\end{center}
+\begin{center}
+    \textbf{\textit{Generic code structure for scalability and dynamic capabilities}} - The structure of the code I had spent a lot of sprint 1 and 2 setting up has allowed me to make changes, add new functions, and more with great ease and minimal update time
+\end{center}
+\begin{center}
+    \textbf{\textit{Additions of new tools}} - I was able to add a great number of tools and capabilities, roughly 10-15, compared to the previous sprint where I only had a single non-functional tool
+\end{center}
+
+\subsection{What needs improvement}
+\begin{center}
+    \textbf{\textit{User logging}} - All actions by made within an instance of PTP need to be tracked and stored within a txt file that is viewable by the user at all times
+\end{center}
+\begin{center}
+    \textbf{\textit{Tool pinning}} - The main PTP window has four boxes reserved for pinned tools to be located for ease of use and access, this however only displays the name of the text and has no functionality
+\end{center}
+\begin{center}
+    \textbf{\textit{Tool history}} - Tools need to have the output stored for future use even after the current instance has ended so that it can be viewed later
+\end{center}
+
+\subsection{Planned changes leading into Final Sprint 4}
+\begin{center}
+    \textbf{\textit{Final Tool Integrations}} - The remaining tools need to be implemented so that all non-tool related features can be implemented as early as possible as we are reaching the deadline for the capstone project 
+\end{center}
+\begin{center}
+    \textbf{\textit{History, Logs, and Pins}} - After all tools are integrated, I will then need to add the three things mentioned above in \textit{What needs improvement}
+\end{center}
+\begin{center}
+    \textbf{\textit{Stretch Goals}} - At this stage all the required goals will be implemented and all that will be needed after that is going to be stretch goals such as notepad, terminal, etc.
+\end{center}
+
+\end{document}
