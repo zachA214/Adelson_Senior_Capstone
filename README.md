@@ -11,7 +11,7 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
 
 <!--- Project report will always link to the latest project report, other project reports will be stored in the github as well for tracking purposes --->
 [![Project Report](https://img.shields.io/badge/Project_Report-red?style=plastic&logo=codementor&logoColor=white)](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft3/PTP_ProjectReportDraft3.pdf) 
-[![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://health.clevelandclinic.org/how-to-be-patient)
+[![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://github.com/zachA214/Adelson_Senior_Capstone/tree/main/Documentation)
 [![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/users/zachA214/projects/3) 
 
 </div>
