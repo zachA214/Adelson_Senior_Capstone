@@ -1,0 +1,88 @@
+<div align="center">
+
+# PTP 🖥️ Application
+This repository contains all the code and technology associated with the PTP application, downloading instructions are located in [README.md](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/README.md) in the front of the project
+  
+</div>
+
+temporary Changelog
+
+Alpha v1.0
+
+Created first screen and buttons
+
+Alpha V1.1
+
+Created spots for all pinned tools to be located, with basic dynamic horizontal sizing
+
+Alpha V1.2
+
+Added History Section
+- Labels of Columns
+- Label of History version
+
+Shifted sections up to reduce empty space
+
+Alpha V1.3
+
+Added Pinned Tool Drop down with tool selections
+Linked majority of buttons and all tools options
+Added user log file <--- needs to actually log data
+Introducing pinned tool toggle between customization and display
+
+Alpha V2.0
+
+All buttons have some sort of response
+Tool integration will commence in this version
+PTP cannot be used like a true tool yet
+
+Alpha V2.1
+
+Nmap installed
+
+Alpha V2.2
+
+Nmap has begin sending and receiving input and output respectively
+PTP displays results
+
+Alpha V3.0
+
+Nmap functional with target, need to add option selection
+Logging has begun begin used
+PTP runs with subprocesses to prevent crashing
+Tool is locked until currently running tool finishes
+
+Alpha V3.1
+
+All tools have their own custom options
+Changed scope to only include a few options for each tool
+Nmap nearly complete, just need conditionals for the few functions
+
+Alpha V3.2
+
+Nmap complete for project scope
+Nmap cannot use applications that require privilege in scope of project
+Begin process of starting Ncat
+
+Alpha V4.0
+
+Removed ASCII and UTF; Replaced by Text
+Updating of UI to match this change
+
+Alpha V4.1
+
+Implmenting data conversions and reformatting code for readability
+
+Alpha v4.2
+
+Data conversions implemented and begun implmenting hashing (SHA, MD5, etc.)
+
+Alpha v4.3
+
+Added JSON saving
+Added user log viewing
+Added pinned menus
+
+Beta v1.0
+
+Terminal accepting input from users
