@@ -102,45 +102,15 @@ The subversion number is appended after a period that is placed immediately foll
 
 ## Prerequeisites
 
-First we need to install python3.
+All the required dependencies must be installed with this command
 
 ```sh
-sudo apt install python3
+sudo apt install python3 pip nmap ncat curl hashcat -y
 ```
 
-Then PIP needs to be installed
+### IMPORTANT
 
-```sh
-sudo apt install pip
-```
-
-All dependencies required for successful execution listed below; All these depedencies will be listed in requirements.txt
-
-### Dependencies
-
-Nmap
-
-```sh
-sudo apt install nmap
-```
-
-Ncat
-
-```sh
-sudo apt install ncat
-```
-
-curl
-
-```sh
-sudo apt install curl
-```
-
-Hashcat
-
-```sh
-sudo apt install hashcat
-```
+As of the beta release, no icons will show up unless the 'src' folder is placed in the parent directory of where the executable is
 
 #### Select Installation type based on use
 
