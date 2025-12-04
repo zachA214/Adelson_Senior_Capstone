@@ -112,11 +112,15 @@ sudo apt install python3 pip nmap ncat curl hashcat -y
 
 As of the beta release, no icons will show up unless the 'src' folder is placed in the parent directory of where the executable is
 
-#### Select Installation type based on use
+## Select Installation Type
 
 <details>
   <summary><ins><strong>User Installation</strong></ins></summary>
-  Steps in progress
+  Download the latest release
+
+  Unzip the file, only testing working on debian version 12
+
+  Download the src file from the main repo page if you want the icons to show up, place it in the parent directory
 </details>
 
 <details>
@@ -141,8 +145,3 @@ sudo apt install qttools5-dev-tools
 
 </details>
 
-### Installations 
-
-exact commands to install
-
-</div>
