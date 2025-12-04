@@ -69,13 +69,12 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
 
-<strong>(build version)-v(version number).(subversion number)</strong>
+<strong>(build version) v(version number).(subversion number)</strong>
 
 ### <ins>Build Version</ins>
 The build version refers to how close to live the release version is, usually following this order <br>
 -> Alpha | For very early proof of concept builds <br>
 -> Beta | For more working but missing full functionality builds <br>
--> Live | For full functoinality builds, not necessarily all features are finished however <br>
 -> Full | Final production build <br>
 
 ### <ins>Version Number</ins>
@@ -84,7 +83,6 @@ For iterations of a build version that incorporate big changes. For instance whe
 -> Alpha v2.0 <br>
 -> Beta v7.2 <br>
 -> Alpha 1.2 <br>
--> Live 2.1 <br>
 > **_NOTE:_**  The full release build will not include a version number
 
 ### <ins>SubVersion Number</ins>
@@ -94,8 +92,6 @@ The subversion number is appended after a period that is placed immediately foll
 -> Alpha v2.1 <br>
 -> Beta v1.1 <br>
 -> Beta v1.7 <br>
--> Live v4.0 <br>
--> Live v4.1 <br>
 > **_NOTE:_**  The full release build will not include a subversion number
 
 # Installation
