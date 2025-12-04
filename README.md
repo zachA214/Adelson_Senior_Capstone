@@ -64,7 +64,7 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 | Submission Name | Deadline Date | Submission | 
 | :---: | :---: | :--: |
 | Poster Title, Team Name, Team Members, and Abstract | November 21st, 2025 | [Poster Abstract](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/PosterAbstract.txt) |
-| Poster Presentation | December 1st, 2025 | x | 
+| Poster Presentation | December 1st, 2025 | [Poster](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/PTP_Poster.pdf) | 
 
 # ✍️ Version Naming Convention
 Versions of release will be named in the following format
