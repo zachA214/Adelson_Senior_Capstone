@@ -10,7 +10,7 @@ This tool is being built and designed as my WSU 2025 senior capstone project for
  ❗**DISCLAIMER**: *This tool is intended to be used in a controlled and authorized environment.* ❗ <br> ⚠️ *Unauthorized use on any system is illegal and unethical* ⚠️
 
 <!--- Project report will always link to the latest project report, other project reports will be stored in the github as well for tracking purposes --->
-[![Project Report](https://img.shields.io/badge/Project_Report-red?style=plastic&logo=codementor&logoColor=white)](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft3/PTP_ProjectReportDraft3.pdf) 
+[![Project Report](https://img.shields.io/badge/Project_Report-red?style=plastic&logo=codementor&logoColor=white)](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportFinal/PTP_ProjectReportFinal.pdf) 
 [![Documentation](https://img.shields.io/badge/Documentation-grey?style=plastic&logo=gitbook&logoColor=white)](https://github.com/zachA214/Adelson_Senior_Capstone/tree/main/Documentation)
 [![Roadmap](https://img.shields.io/badge/Roadmap-blue?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/users/zachA214/projects/3) 
 
@@ -57,7 +57,7 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 | Project Report Draft 1 | September 13th, 2025 | [Project Report Draft 1](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft1/PTP_ProjectReportDraft1.pdf) | 
 | Project Report Draft 2 | October 11th, 2025 | [Project Report Draft 2](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft2/PTP_ProjectReportDraft2.pdf) | 
 | Project Report Draft 3 | Novemeber 8th, 2025 | [Project Report Draft 3](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportDraft3/PTP_ProjectReportDraft3.pdf) |
-| Project Report Final Draft | December 6th, 2025 | x |
+| Project Report Final | December 6th, 2025 | [Project Report Final](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/ProjectReports/projectReportFinal/PTP_ProjectReportFinal.pdf) |
 
 ## 🖼️ Poster
 
