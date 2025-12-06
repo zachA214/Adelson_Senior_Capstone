@@ -48,7 +48,7 @@ The PTP tool is an application that is a collection of powerful pen testing tool
 | Sprint 1 | September 13th, 2025 | [Sprint PDF](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/sprintReports/sprintOne/PTP_SprintReport1.pdf) | [Video Demo - 14:46](https://www.youtube.com/watch?v=bfyXK9ObtGY) |
 | Sprint 2 | October 11th, 2025 | [Sprint PDF](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/sprintReports/sprintTwo/PTP_SprintReport2.pdf) | [Video Demo - 9:33](https://www.youtube.com/watch?v=g3YkFPPLZDk) |
 | Sprint 3 | Novemeber 8th, 2025 | [Sprint PDF](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/sprintReports/sprintThree/PTP_Sprint3.pdf) | [Video Demo - 11:07](https://www.youtube.com/watch?v=XBrMb5M4luo) |
-| Sprint 4 | December 6th, 2025 | x | x |
+| Sprint 4 | December 6th, 2025 | [Sprint PDF](https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/ProjectManagement/sprintReports/sprintFour/PTP_SprintReport4.pdf) | No Demo Video |
 
 ## 🖇️ Project Reports
 
