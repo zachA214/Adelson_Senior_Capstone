@@ -1,0 +1,213 @@
+\documentclass{article}
+\usepackage{hyperref}
+%%%%%%%% https://tex.stackexchange.com/questions/136527/section-numbering-without-numbers
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{Section \thesection: }
+\makeatother
+\usepackage{graphicx} % Required for inserting images
+
+\title{Sprint Report 4\\\small{PenTestPocket}}
+\author{Zachary Adelson}
+\date{November 9th 2025 - December 7th 2025}
+
+\begin{document}
+
+\maketitle
+\rule{10cm}{0.25pt}
+\centering
+
+\section{What's New (User Facing)}
+\subsection{Feature - Pinned Tools with Saving}  In the tool pinning section on the main page, if you select the pin icon on the right, four drop downs appear with the option to select a tool. Selecting the pin icon again allows you to go to that tools page. And with the help of the JSON file, if you close PTP and relaunch your pins will stay saved
+
+\subsection{Feature - Interactive Built in Terminal*} Clicking on the right most icon it opens a built terminal for PTP that acts like the built in system terminal, with the exception that at this stage the terminal is not functioning at this stage, but has the ability to be working with few additions
+
+\subsection{Feature - Enhanced User Logging} Every action done by the user is tracked and store within the userlogs.txt and is displayable inside of PTP
+
+\newpage
+\section{Work Summary (Developer Facing)}
+\large{
+In \textbf{Sprint 4}, I streamlined the code to not have print statements for debugging, and removed conditional checkers that became obsolete as the project advanced. Although not all backend pieces were completed, the tool has functioning capabilities to show as a proof of concept\\ This was all accomplished starting from August 21st 2025, time tracking is stored in GitHub to break down how much time was spent in each grouping (specified in the roadmap) and how much each day.
+}
+\newpage
+\section{Unfinished Work}
+\large{
+In \textbf{Sprint 4} I was not able to finish all tools originally planned, no automation, no internal notebook, and not full in-depth tools\\
+The default reason, which is true for these issues as well, is that for any delayed issue it is due to the tasks taking longer than expected; any other arising issues will be mentioned within the comments of the issue itself. For this sprint, a lot of delays came in the form of goal changes, other coursework, and personal commitments \\
+**NOTE* - There are open issues, but they are meant to be placed into the final sprint, so they are not in scope for this sprint. \\
+}
+\newpage
+\section{Completed Issues/User Stories}
+Here are links to the issues that I completed in this sprint:
+\subsection{Issue links}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/10}{Issue \#10 - Project Coaching} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/21}{Issue \#21 - Weekly Coaching Session - 11/06} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/22}{Issue \#22 - Weekly Coaching Session - 11/13} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/23}{Issue \#23 - Poster Session - 12/4} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/24}{Issue \#24 - Weekly Coaching Session - 11/20} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/33}{Issue \#33 - Poster Abstract Report Due} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/41}{Issue \#41 - Upload Time Tracker} \\
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/55}{Issue \#55 - Create more in depth user logging} \\
+
+\newpage
+
+\section{Incomplete Issues/User Stories}
+Here are links to issues I worked on but did not complete in this sprint:
+\subsection{Issue links \& Explanations}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/32}{[Will be Completed] Issue \#32 - Sprint Four Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} This is the Sprint Report Four, if you are seeing this, it is completed
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/37}{[Will be Completed] Issue \#37 - Project Draft Four Report Due} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} Project Four Report will be submitted before December 7th (end of Sprint 4 and Capstone)
+    }%
+}
+
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/43}{[Incomplete] Issue \#43 - Make all elements on main screen scale with the screen} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/46}{[Incomplete] Issue \#46 - Add authorization} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/53}{[Incomplete] Issue \#53 - Assign Ncat Commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/56}{[Incomplete] Issue \#56 - Store tool output in a file for later} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/58}{[Incomplete] Issue \#58 - Integrate Metasploit} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{http://github.com/zachA214/Adelson_Senior_Capstone/issues/59}{[Incomplete] Issue \#59 - Assign metasploit commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/61}{[Incomplete] Issue \#61 - Assign curl commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/62}{[Incomplete] Issue \#62 - Integrate gobuster} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/63}{[Incomplete] Issue \#63 - Assign gobuster commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/issues/66}{[Incomplete] Issue \#66 - Assign hashcat commands} \\
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Explanation:} End of Capstone term, out of time 
+    }%
+}
+\newpage
+\section{Code Files for Review}
+Please review the following code files, which were actively developed during this
+sprint, for quality:
+\begin{center}
+\href{https://github.com/zachA214/Adelson\_Senior\_Capstone/blob/main/PenTestPocket/pentestpocket.py}{Main PenTestPocket Python Code} 
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/changelog.py}{Change Log Python Code}
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/userlogging.py}{User Logging Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/helpwindow.py}{Help Window Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/servicescanning.py}{Service Scanning Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/passwordcracking.py}{Password Cracking Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/webenumeration.py}{Web Enumeration Python Code}   
+\end{center}
+
+\begin{center}
+\href{https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/encodedecode.py}{Encode/Decode Python Code}   
+\end{center}
+\\
+\begin{center}
+\href{\\https://github.com/zachA214/Adelson_Senior_Capstone/blob/main/PenTestPocket/createhash.py}{Create Hash Python Code}   
+\end{center}
+
+\newpage
+\section{Retrospective Summary}
+\subsection{What went well}
+\begin{center}
+    \textbf{\textit{Implementation of tools}} - All tools that were implemented are implemented to a level of clarity of speed such that they are no sacrifices between other tools
+\end{center}
+\begin{center}
+    \textbf{\textit{Code structure}} - The structure of the code is designed in a way that is easily readable, grouped together in sections, and decoupled in a powerful architectural design
+\end{center}
+\begin{center}
+    \textbf{\textit{Scalability}} - With the architectural design, PTP is built in a way such that any and all additions would not require any refactoring or redesign
+\end{center}
+
+\subsection{What needs improvement}
+\begin{center}
+    \textbf{\textit{Storing run execution data}} - Tool output execution isn't saved anywhere after the tool is run, it is only run and then displayed and once closed it is gone forever
+\end{center}
+\begin{center}
+    \textbf{\textit{Help Window}} - The help window can be opened but it is completely blank, the help text needs to be created and added to the help window
+\end{center}
+\begin{center}
+    \textbf{\textit{Change Logs}} - Similar to the help window, the change log window can be opened but no text is present, but the text that would be included is in readME.md
+\end{center}
+
+\subsection{Future Work}
+\begin{center}
+    \textbf{\textit{Breadth of Tools}} - The amount of tools is not the total I aimed when I created PTP, so the remainder of the unimplemented tools need to be added to get the full breadth of PTP
+\end{center}
+\begin{center}
+    \textbf{\textit{Cross-Platform enabled}} - PTP currently only is tested working on debian linux 12, ideally I would like it to run on other distros of linux alongside with Windows as it is the most popular operating system
+\end{center}
+\begin{center}
+    \textbf{\textit{Ensuring constant compliance with the CIA triad}} - Currently I am not doing anything to ensure CIA, but for each aspect I would do the following. Confidentiality, I would add user authentication and 2FA to ensure only authorized users can access information. Integrity, I would take hashes of PTP when changes occur, and on relaunch compare hashing to see if unauthorized changes were made. Lastly for avalibility, this is the only aspect that isn't really needing much change, the only change I would make is if bugs occur the program fails safely instead of completely shutting down
+\end{center}
+
+\end{document}
